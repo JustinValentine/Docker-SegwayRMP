@@ -1,2 +1,2 @@
 # Docker-SegwayRMP
-Docker container for interfacing with Segway RMP 200. Dockerfile and Compose specification for {segway_rmp}[http://wiki.ros.org/segway_rmp?distro=groovy] packages which are only released in EOL distros.
+Docker container for interfacing with Segway RMP 200. Dockerfile and Compose specification for [segway_rmp]{http://wiki.ros.org/segway_rmp?distro=groovy} packages which are only released in EOL distros.

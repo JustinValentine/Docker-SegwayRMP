@@ -1,0 +1,9 @@
+services:
+  segway_rmp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+    network_mode: host
+    command: roslaunch segway_rmp segway.launch
